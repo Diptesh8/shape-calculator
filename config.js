@@ -1,1 +1,3 @@
-console.log("connected")
+function calculateTringleArea(){
+    console.log('inside function');
+}
