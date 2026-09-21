@@ -12,3 +12,14 @@ function calculateTringleArea(){
     console.log(area);
 
 }
+
+function calculateRectangleArea(){
+    const rectangleWidth = document.getElementById('rectangle-width');
+    const rectangleWidthInput =rectangleWidth.value;
+    const width =parseFloat(rectangleWidthInput)
+  const rectangleLength = document.getElementById('rectangle-length');
+  const rectangleLengthText = rectangleLength.value;
+  const length = parseFloat(rectangleLengthText);
+  const area =width * length;
+  console.log(area);
+}
