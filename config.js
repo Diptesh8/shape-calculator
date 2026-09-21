@@ -26,5 +26,7 @@ function calculateRectangleArea(){
   const rectangleLengthText = rectangleLength.value;
   const length = parseFloat(rectangleLengthText);
   const area =width * length;
-  console.log(area);
+//   console.log(area);
+const rectangleOutput =document.getElementById('rectangle-area');
+rectangleOutput.innerText =area;
 }
