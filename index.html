@@ -38,9 +38,9 @@
     <h2 class="card-title text-center">Triangle</h2>
     <p class="text-center">Area = 0.5 X b X h</p>
     <div class="flex">
-      <input id="triangle-base" class="w-24 text-2xl p-2 rounded-sm" type="text" placeholder="b">
+      <input id="triangle-base" class="w-24 text-2xl p-2 rounded-sm" type="text" placeholder="base">
     <span>cm</span>
-    <input id="tringle-height" class="w-24 text-2xl p-2 rounded-sm" type="text" placeholder="h">
+    <input id="tringle-height" class="w-24 text-2xl p-2 rounded-sm" type="text" placeholder="height">
     <span>cm</span>
     </div>
     <div class="card-actions justify-end">
@@ -59,8 +59,8 @@
     <h2 class="card-title">Rectangle</h2>
     <p>Area (A) = w X I</p>
     <div class="flex">
-         <input id="rectangle-width" type="text" class="w-24 text-2xl rounded-sm p-2" placeholder="w"><span>cm</span>
-    <input id="rectangle-length" type="text" class="w-24 text-2xl rounded-sm p-2" placeholder="l"><span>cm</span>
+         <input id="rectangle-width" type="text" class="w-24 text-2xl rounded-sm p-2" placeholder="width"><span>cm</span>
+    <input id="rectangle-length" type="text" class="w-24 text-2xl rounded-sm p-2" placeholder="length"><span>cm</span>
     </div>
     <div class="card-actions justify-end">
       <button onclick="calculateRectangleArea()" class="btn btn-primary w-full">Calculate</button>
@@ -76,9 +76,13 @@
   </figure>
   <div class="card-body">
     <h2 class="card-title">Card Title</h2>
-    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+    <p>Area (A) = b * h</p>
     <div class="card-actions justify-end">
-      <button class="btn btn-primary">Buy Now</button>
+      <div class="flex">
+        <input type="text" id="parallelogram-base" class="text-2xl rounded-sm p-2 w-24" placeholder="base"><span>cm</span>
+            <input type="text" id="parallelogram-height" class="text-2xl rounded-sm p-2 w-24" placeholder="height"><span>cm</span>
+      </div>
+      <button class="btn btn-primary w-full">Calculate</button>
     </div>
   </div>
 </div>
