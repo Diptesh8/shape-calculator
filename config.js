@@ -11,6 +11,11 @@ function calculateTringleArea(){
     const area= 0.5 * base * height;
     console.log(area);
 
+    // display tringle area----------------
+    const areaOutput =document.getElementById('triangle-area');
+    areaOutput.innerText =area;
+    
+
 }
 
 function calculateRectangleArea(){
