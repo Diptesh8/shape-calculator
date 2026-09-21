@@ -106,13 +106,16 @@
     <h2 class="card-title text-center">Rhombus</h2>
     <p class="text-center">Area(A) = 0.5 X d1 X d2</p>
     <div class="flex">
-      <input id="triangle-base" class="w-24 text-2xl p-2 rounded-sm" type="text" placeholder="b">
+      <input id="rhombus-base" class="w-24 text-2xl p-2 rounded-sm" type="text" placeholder="b">
     <span>cm</span>
-    <input id="tringle-height" class="w-24 text-2xl p-2 rounded-sm" type="text" placeholder="h">
+    <input id="rhombus-height" class="w-24 text-2xl p-2 rounded-sm" type="text" placeholder="h">
     <span>cm</span>
     </div>
+    <div>
+      <p class="text-2xl">Area:<span id="rhombusArea">0</span><span>cm<sup>2</sup></span></p>
+    </div>
     <div class="card-actions justify-end">
-      <button onclick="calculateTringleArea()" class="btn btn-primary w-full">Calculate</button>
+      <button onclick=" RhombusCalculationPart()" class="btn btn-primary w-full">Calculate</button>
     </div>
   </div>
 </div>
@@ -167,5 +170,6 @@
   </div>
   <script src="config.js"></script>
   <script src="Parallelogram.js"></script>
+  <script src="Rhombus.js"></script>
 </body>
 </html>
