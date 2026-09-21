@@ -7,7 +7,7 @@ function pentagonCalculation(){
     const pentagonValueHeight= pentagonHeight.value;
     const height = parseFloat(pentagonValueHeight);
     // calculate section ------------
-    const area =0.5 * Base * height;
+    const area = 0.5 * Base * height;
 //    show the final output in ui ---------
 const finalOutput =document.getElementById('pentagonArea');
 finalOutput.innerText=area;
